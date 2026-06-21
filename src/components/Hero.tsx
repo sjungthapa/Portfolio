@@ -28,13 +28,15 @@ export default function Hero() {
         </motion.h1>
 
         <motion.h2 variants={fadeUp} className="text-xl md:text-2xl text-gray-400 font-medium mb-6">
-          Full Stack Developer
+          Software Engineer
         </motion.h2>
 
         <motion.p variants={fadeUp} className="text-gray-400 text-base md:text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-          Building scalable, production-ready web applications with React.js and modern
-          JavaScript/TypeScript. Passionate about clean code, open-source, and great user experiences.
-        </motion.p>
+          I don't just write code — 
+          I think about how systems should be architected, 
+          tested, and shipped. End-to-end ownership, 
+          from schema design to deployment.
+        </motion.p> 
 
         <motion.div variants={fadeUp} className="flex flex-wrap gap-4 justify-center">
           <a
