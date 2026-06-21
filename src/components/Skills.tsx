@@ -5,19 +5,27 @@ import { fadeUp, staggerContainer } from "../utils/animations";
 const skillGroups = [
   {
     category: "Frontend",
-    skills: ["React.js", "TypeScript", "JavaScript (ES6+)", "HTML5 & CSS3", "Redux", "Shadcn UI", "Axios", "Responsive Design"],
+    skills: ["React.js", "TypeScript", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS", "Redux", "Shadcn UI", "Axios", "Responsive Design"],
   },
   {
     category: "Backend & APIs",
-    skills: ["Node.js", "Express.js", "Python (FastAPI / Flask)", "RESTful API Design", "JWT Authentication & Authorization"],
+    skills: ["Node.js", "Express.js", "Python", "Django", "FastAPI / Flask", "RESTful API Design", "JWT Authentication & Authorization"],
   },
   {
     category: "Databases",
-    skills: ["MongoDB (NoSQL)", "SQL & Relational Modeling", "Microsoft SQL Server"],
+    skills: ["PostgreSQL", "pgvector", "MongoDB (NoSQL)", "SQL & Relational Modeling", "Microsoft SQL Server"],
   },
   {
-    category: "Cloud & Tools",
-    skills: ["Git & GitHub", "Cloudinary", "Agile / Scrum", "Code Reviews", "Unit Testing"],
+    category: "AI & Data",
+    skills: ["Groq API", "sentence-transformers", "Vector Similarity Search", "LLM-Powered App Design"],
+  },
+  {
+    category: "Cloud, DevOps & Tools",
+    skills: ["Docker", "Celery", "Redis", "GitHub Actions (CI/CD)", "Render", "Railway", "Cloudinary", "Git & GitHub"],
+  },
+  {
+    category: "Practices",
+    skills: ["Agile / Scrum", "Code Reviews", "Unit Testing", "Open Source Contribution", "Clean Code Principles"],
   },
 ];
 
@@ -41,7 +49,7 @@ export default function Skills() {
             Skills
           </motion.h2>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {skillGroups.map(({ category, skills }) => (
               <motion.div
                 key={category}

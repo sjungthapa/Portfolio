@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { fadeUp, staggerContainer } from "../utils/animations";
 import profilePic from "../assets/profile_pic.JPG";
-import cvPdf from "../assets/SamyamJungThapaChhetri_CV.pdf";
+import cvPdf from "../assets/Samyam_Jung_Thapa_Chhetri_CV.pdf";
 
 export default function About() {
   const ref = useRef(null);
@@ -47,10 +47,10 @@ export default function About() {
                 from Herald College Kathmandu, graduating with Second Class Honours in December 2024.
               </motion.p>
               <motion.p variants={fadeUp} className="text-gray-300 leading-relaxed">
-                I work as a <span className="text-violet-400 font-semibold">Software Engineer Intern</span> at{" "}
-                <span className="text-violet-400">jawafdehi.org</span>, contributing to both the main platform and
-                NGM Archive — a Judicial Data Archive. I'm passionate about frontend performance optimization,
-                clean architecture, and UI/UX design.
+                I worked as a <span className="text-violet-400 font-semibold">Software Engineer Intern</span> at{" "}
+                <span className="text-violet-400">jawafdehi.org</span> (Feb 2026 – May 2026), contributing to both
+                the main platform and NGM Archive — a Judicial Data Archive. I'm passionate about frontend
+                performance optimization, clean architecture, and UI/UX design.
               </motion.p>
 
               <motion.div variants={fadeUp} className="pt-4 grid grid-cols-2 gap-4">

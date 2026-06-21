@@ -14,6 +14,16 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "SkillMap Nepal — AI Job Skill Gap Analyzer",
+    description:
+      "Full-stack Django platform that analyzes a user's CV against real-time job listings scraped from Merojob, computes skill gaps using pgvector cosine similarity, and generates a personalized week-by-week learning roadmap via the Groq API (Llama 3.3 70B). Includes CI/CD with GitHub Actions, a 45-test suite, and email-verified auth.",
+    tags: ["Django", "PostgreSQL", "pgvector", "Celery", "Redis", "Groq API", "Docker", "GitHub Actions"],
+    github: "https://github.com/sjungthapa/SkillMapNepal",
+    live: "https://skillmapnepal.onrender.com",
+    gradient: "from-amber-600 to-orange-600",
+    badge: "Live",
+  },
+  {
     title: "jawafdehi.org & NGM Archive — Software Engineer Intern",
     description:
       "Worked as a Software Engineer Intern contributing to both jawafdehi.org and its product NGM Archive (ngm.jawafdehi.org) — a Judicial Data Archive. Led the frontend redesign of NGM Archive, built a case search section with filtering, pagination, and table management from scratch, and developed backend Python endpoints to support new frontend features.",
@@ -79,7 +89,7 @@ export default function Projects() {
             Projects
           </motion.h2>
           <motion.p variants={fadeUp} className="text-gray-500 text-sm mb-12">
-            All projects are private / in development except the open-source contribution.
+            All projects are private / in development except the open-source contribution and SkillMap Nepal.
           </motion.p>
 
           <div className="grid md:grid-cols-2 gap-6">
