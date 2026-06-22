@@ -30,27 +30,29 @@ export default function About() {
               <img
                 src={profilePic}
                 alt="Samyam Jung Thapa Chhetri"
-                className="w-64 h-64 rounded-2xl object-cover shadow-2xl shadow-violet-900/40 border border-gray-800"
+                className="w-200 h-130 rounded-2xl object-cover shadow-2xl shadow-violet-900/40 border border-gray-800"
               />
             </motion.div>
 
             {/* Text */}
             <motion.div variants={staggerContainer} className="space-y-4">
               <motion.p variants={fadeUp} className="text-gray-300 leading-relaxed">
-                Hi! I'm <span className="text-violet-400 font-semibold">Samyam Jung Thapa Chhetri</span>, a full-stack
-                developer based in Kathmandu, Nepal. I build scalable, production-ready web applications
-                using React.js and modern JavaScript/TypeScript.
+                Hi! I'm <span className="text-violet-400 font-semibold">Samyam Jung Thapa Chhetri</span>, a software
+                engineer based in Kathmandu, Nepal. I care less about which framework I'm using and more about
+                whether the system as a whole makes sense — how the data is modeled, how the pieces talk to
+                each other, and what happens when something breaks at 2am.
               </motion.p>
               <motion.p variants={fadeUp} className="text-gray-300 leading-relaxed">
-                I'm skilled in designing RESTful APIs, managing application state, and delivering clean,
-                well-documented code in agile team environments. I hold a BSc (Hons) in Computer Science
+                In practice that means I'm comfortable moving across the stack — React.js and TypeScript on the
+                frontend, Django and Node.js on the backend — and I've shipped projects involving async task
+                pipelines, vector databases, and CI/CD from scratch. I hold a BSc (Hons) in Computer Science
                 from Herald College Kathmandu, graduating with Second Class Honours in December 2024.
               </motion.p>
               <motion.p variants={fadeUp} className="text-gray-300 leading-relaxed">
                 I worked as a <span className="text-violet-400 font-semibold">Software Engineer Intern</span> at{" "}
                 <span className="text-violet-400">jawafdehi.org</span> (Feb 2026 – May 2026), contributing to both
-                the main platform and NGM Archive — a Judicial Data Archive. I'm passionate about frontend
-                performance optimization, clean architecture, and UI/UX design.
+                the main platform and NGM Archive — a Judicial Data Archive. Outside of client-facing work, I
+                build my own end-to-end projects to keep learning how production systems actually hold up.
               </motion.p>
 
               <motion.div variants={fadeUp} className="pt-4 grid grid-cols-2 gap-4">
